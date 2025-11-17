@@ -2,3 +2,75 @@
     margin : 0;
     padding: 0;
 }
+
+:root {
+    --color-background : #f5f4f0;
+    --color-border : #d9d9d9;
+    --color-textPrimary : #1b1b1b;
+    --color-textSecondary : #333333; 
+    --color-textTertiary : #696969;
+    --color-textHeadLine : #e1624f;
+    --color-accentBlue : #0c51a7;
+    --color-accentOrange : #e95e10;
+    --color-accentPink : #e5245e;
+    --color-accentPurple : #591b98;
+
+    background-color: var(--color-background);
+
+    font-family: "open sans", serif;
+}
+
+.HeadLine{
+    color: var(--color-textHeadLine);
+    size: 16px;
+    font-weight: bold;
+}
+
+article{
+    border-top-style : solid;
+    border-bottom-style : solid;
+    border-color: var(--color-border);
+}
+
+h1 {
+    size: 36px;
+    font-weight: bold;
+}
+
+h2 {
+    size: 32px;
+    font-weight: bold;
+}
+
+h3 {
+    size: 28px;
+    font-weight: bold;
+}
+
+p{
+    size: 16px;
+}
+
+#historia{
+    color: var(--color-accentBlue);
+}
+
+#casais{
+    color: var(--color-accentPurple);
+}
+#familia{
+    color: var(--color-accentPink);
+}
+#orcamento{
+    color: var(--color-accentOrange);
+}
+
+.subtitle {
+    size: 16px;
+    font-weight: italic;
+}
+
+
+img {
+    border-radius: 28px;
+}
